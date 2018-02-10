@@ -1,0 +1,16 @@
+body{
+  background: linear-gradient(to right, rgba(188, 255, 84,.7), rgba(120, 182, 209,.5))
+}
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1 {
+  font-family: 'SEGA LOGO FONT' , Fallback, sans-serif;
+  color: black;
+  letter-spacing: 3px;
+  text-shadow: 4px 3px 17px rgba(180, 114, 56, 1);
+}
